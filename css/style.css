@@ -1,0 +1,71 @@
+#container {
+    background-color: #98fb98;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+
+}
+
+.obrazek1,
+.obrazek2,
+.obrazek3,
+.obrazek4 {
+
+    display: inline-block;
+    width: 23%;
+    height: 300px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+    margin-left: 20px;
+
+}
+
+.obrazek1 {
+    background-image: url(../img/product-1.jpg);
+
+
+}
+
+.obrazek2 {
+    background-image: url(../img/product-2.jpg);
+
+}
+
+.obrazek3 {
+    background-image: url(../img/product-3.jpg);
+
+
+}
+
+.obrazek4 {
+    background-image: url(../img/product-4.jpg);
+
+
+}
+
+.maska {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 111, 0, 0.5);
+    opacity: 0;
+    transition: all 0.4s;
+
+}
+
+.fa {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    top: 40%;
+    left: 40%;
+
+
+}
+
+.maska:hover {
+    opacity: 1;
+}
